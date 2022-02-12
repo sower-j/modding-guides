@@ -11,8 +11,8 @@
 
 ### Vortex
 
-  - [Adding plugins to Horizon Framework's Vortex groups](./horizon-framework-custom-groups
-  .md)
+  - [Adding plugins to Horizon Framework's Vortex groups](./horizon-framework-custom-groups.md)
+
 
 ## Game Guides
 
