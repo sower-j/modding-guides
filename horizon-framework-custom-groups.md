@@ -1,4 +1,4 @@
-# Horizon Framework Collection and Vortex
+# Horizon Framework - Custom Groups 
 
 This guide will give a more in-depth explanation for using the custom groups that come with the Horizon Framework collection on Nexus.
 
