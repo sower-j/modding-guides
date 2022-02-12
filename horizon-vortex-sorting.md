@@ -1,6 +1,6 @@
 # Horizon Framework Collection and Vortex
 
-This guide will give a more in-depth explanation for using the custom groups and rules that come with the Horizon Framework collection on Nexus.
+This guide will give a more in-depth explanation for using the custom groups that come with the Horizon Framework collection on Nexus.
 
 
 TLDR: Put ESM plugins in the `Master ESMs group`, put ESL plugins in the `ESLs group`, and patches for Horizon (standalone or replacer ESPs) in the `HZ Patches group`. **Do not make changes to any of the other groups unless you know what you are doing**
