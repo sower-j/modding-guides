@@ -78,7 +78,7 @@ Now F4SE is installed correctly and you can launch your game with all the extra 
 
 ### Other Example Folder Structure
 
-  - Buffout 4 TBB Redistributablesi
+  - Buffout 4 TBB Redistributables
 
      ![Rootbuilder Buffout](./images/mo2-rootbuilder-buffout.png)
 
