@@ -4,13 +4,13 @@ Experimenting with, or changing mod managers sounds difficult. In reality, its q
 
 I will be focusing mainly on moving from Vortex to MO1 since that is the direction most users go.
 
-## Phase 0: Soft Migration
+## Phase 1: Soft Migration
 
 This phase will allow you to keep your Vortex installation intact while testing MO1.
 
-0. In Vortex, disable all of your mods. This helps make the initial MO2 experience less confusing by ensuring there aren't any extra plugins in the \Fallout 4\Data folder.
+1. In Vortex, disable all of your mods. This helps make the initial MO2 experience less confusing by ensuring there aren't any extra plugins in the \Fallout 4\Data folder.
 
-0. In Vortex, navigate to the settings page.
+1. In Vortex, navigate to the settings page.
       
    *Note: I am using custom locations for the next steps so yours will likely look very different.*
 
@@ -22,9 +22,9 @@ This phase will allow you to keep your Vortex installation intact while testing 
 
       ![Vortex Downloads Tab](./images/vortex-set-downloads-tab.png)
 
-0. Now that you have the locations of your staging and downloads folder, double check to make sure all of your mods are disabled then close Vortex.
+1. Now that you have the locations of your staging and downloads folder, double check to make sure all of your mods are disabled then close Vortex.
 
-0. Begin your MO2 install. I prefer the portable instance, but a global instance will work as well.
+1. Begin your MO2 install. I prefer the portable instance, but a global instance will work as well.
 
     - During MO1's installation you will have the option to set folder locations. Click the `Show advanced options` at the bottom.
 
@@ -36,7 +36,7 @@ This phase will allow you to keep your Vortex installation intact while testing 
 
     - Leave the rest of the options as default.
 
-0. Now you can launch MO2 and all of your mods and downloads will be present.
+1. Now you can launch MO2 and all of your mods and downloads will be present.
 
 Now you can start experimenting with MO1. **Remember that any changes to mods you download, install, or delete will be reflected in Vortex.** While you are experimenting with MO2 I recommend avoiding Vortex because of the way it handles enabling mods. 
 
@@ -46,16 +46,16 @@ Vortex uses hard links to make mods appear as if they are in the Fallout 3\Data 
 
   - I have a guide for using Root Builder [here](./mo1-rootbuilder.md) if you are interested.
 
-## Phase 1: Removing Vortex
+## Phase 2: Removing Vortex
 
 If you have decided to make the full switch to MO1 there are only a couple things you need to do before removing Vortex.
 
-0. Make a copy of, or move your Vortex Downloads and Staging folders and put them in a new location.
+1. Make a copy of, or move your Vortex Downloads and Staging folders and put them in a new location.
 
 1. Change your MO2 settings so that your Downloads and Mods point to the new locations.
 
     ![MO1 Settings](./images/mo2-settings.png)
 
-2. You can now un-install Vortex without any loss of data.
+1. You can now un-install Vortex without any loss of data.
 
 Congratulations! You have successfully moved from one mod manager to another.
