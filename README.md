@@ -1,18 +1,24 @@
-# Modding-Guides
+# Modding Guides
 
 ## Mod Manager Guides
 
-  - (coming soon) Migrating between Vortex and Mod Organizer 2 
+  - [Migrating between Vortex and Mod Organizer 2](./migrating-mod-managers.md)
   - (coming soon) Using Mod Organizer 2 and Vortex simultaneously (Advanced modding)
+
+---
 
 ### Mod Organizer 2
 
   - (coming soon) General Mod Organizer 2 guide for new users
+  - [MO2 Root Builder - Manage F4SE, ENB, and more with MO2](./mo2-rootbuilder.md)
+
+---
 
 ### Vortex
 
   - [Adding plugins to Horizon Framework's Vortex groups](./horizon-framework-custom-groups.md)
 
+---
 
 ## Game Guides
 
