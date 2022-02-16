@@ -10,7 +10,7 @@
 ### Mod Organizer 2
 
   - (coming soon) General Mod Organizer 2 guide for new users
-  - [MO2 Root Builder - Manage F4SE, ENB, and more with MO2](./mo2-rootbuilder.md)
+  - [MO2 Root Builder - Manage Script Extenders, ENBs, and more with MO2](./mo2-rootbuilder.md)
 
 ---
 
