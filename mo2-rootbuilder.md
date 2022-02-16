@@ -173,10 +173,10 @@ Comming Soon
 
 ## Final Notes and Other Resources
 
-If the red "x" flags in MO2 bother you they will go away if you right click the mod and select "Ignore Missing Data"
-
-![MO2 Flags](./images/mo2-missing-data.png)
+Bigglesworth has also made a guide for Root Builder with his custom repacks if you are interested. Find it [here](https://docs.google.com/document/d/1G_atn4azIh0JPrvBVAV6PhJ5kkrVnaktbBi_PJRpzV4/edit?usp=sharing)!
 
 ---
 
-Bigglesworth has also made a guide for Root Builder with his custom repacks if you are interested. Find it [here](https://docs.google.com/document/d/1G_atn4azIh0JPrvBVAV6PhJ5kkrVnaktbBi_PJRpzV4/edit?usp=sharing) !
+If the red "x" flags in MO2 bother you they will go away if you right click the mod and select "Ignore Missing Data"
+
+![MO2 Flags](./images/mo2-missing-data.png)
