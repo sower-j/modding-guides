@@ -1,16 +1,16 @@
-# Using MO2 to Manage F4SE, ENB, and More
+# Using MO2 to Manage Script Extenders, ENBs, and More
 
-Mod Organizer 2 cannot install mods that use the base Fallout 4 folder natively (where the `Fallout4.exe` is located). Luckily there is a MO2 plugin called [Root Builder](https://www.nexusmods.com/skyrimspecialedition/mods/31720) that will enable MO2 to manage these applications.
+Mod Organizer 2 cannot install mods that use the base game folders natively (where the `Fallout4.exe`, or `Skyrim.exe` are located). Luckily there is a MO2 plugin called [Root Builder](https://www.nexusmods.com/skyrimspecialedition/mods/31720) that will enable MO2 to manage these applications.
 
 Based on your settings, Root Builder will temporarily copy, or link mods that need to be in the Fallout 4 folder. This makes it so that your Fallout 4 folder remains untouched and you have everything managed from one location, MO2.
 
 If you would like to jump straight to a specific section here are some jump points:
 
-  - [F4SE](#f4se-installation)
-  - [Buffout 4's TBB Redistributables](#buffout-4-tbb-redistributables)
-  - [ENB Binaries](#enb-binaries)
+  - [Script Extenders (F4SE, SKSE)](#script-extender-installation)
+  - [Engine Fixes (Buffout 4, SSE Engine Fixes)](#engine-fixes)
+  - [ENB Binaries (Fallout 4 or Skyrim)](#enb-binaries)
   - [ENB Preset](#enb-preset)
-  - [xSE Plugin Preloader](#xse-plugin-preloader)
+  - [xSE Plugin Preloader (Fallout 4 only)](#xse-plugin-preloader)
   - [Final Notes and Other Resources](#final-notes-and-other-resources)
 
 ---
@@ -47,13 +47,13 @@ Root builder uses a slightly modified folder structure when installing mods that
 
 During installation you will need to create a `Root` folder inside of the `Data` directory and place any files that need to be in the Fallout 4 folder (where `Fallout4.exe` is located) into the new `Root` folder.
 
-I will start off with F4SE since it is required for several other mods to function properly.
-
 ***NOTE: Many mods installed in this way will have a warning that there is no valid game data. This is expected since this is an unofficial plugin MO2 does not recognize the folder structure.***
 
-### F4SE Installation
+###  Script Extender Installation
 
-1. [Download F4SE](https://f4se.silverlock.org/) and save it to an easy to find location, the desktop works well. Drag the archive into MO2's download tab
+For this example I will be installing F4SE but the process is identical for SKSE aside from different file names. I will note them where needed.
+
+1. [Download F4SE](https://f4se.silverlock.org/) and save it to an easy to find location, the desktop works well. Drag the archive into MO2's download tab.
 
     ![Move F4SE](./images/mv-f4se.png)
 
@@ -65,7 +65,9 @@ I will start off with F4SE since it is required for several other mods to functi
 
     ![F4SE02](./images/rootbuilder-f4se02.png)
     
-1. For F4SE to function only `f4se_1_10_163.dll`, `f4se_steam_loader.dll` and `f4se_loader.exe` are required. You can uncheck everything else in the `Root` file.
+1. For F4SE to function only `f4se_1_10_163.dll`, `f4se_steam_loader.dll` and `f4se_loader.exe` are required. You can uncheck everything else in the `Root` folder.
+
+    - For SKSE the files you need to have checked in the `Root` folder are `skse_1_9_32.dll`, `skse_loader.exe`, and `skse_steam_loader.dll`
 
     ![F4SE03](./images/rootbuilder-f4se03.png)
 
@@ -85,7 +87,7 @@ I will start off with F4SE since it is required for several other mods to functi
 
     ![MO2 Executable 02](./images/mo2-add-executable02.png) 
      
-1. Navigate to the F4SE mod you created earlier and select the `f4se_loader.exe`. 
+1. Navigate to the F4SE (or SKSE) mod you created earlier and select the `f4se_loader.exe`(or `skse_loader.exe`). 
 
     ![MO2 Executable 03](./images/mo2-add-executable03.png)
 
@@ -101,13 +103,19 @@ Now F4SE is installed correctly and you can launch your game with all the extra 
 
 ---
 
-### Buffout 4 TBB Redistributables
+### Engine Fixes 
+
+There are two major engine fix tools for Bethesda games. Buffout 4 for Fallout 4, and SSE Engine fixes for Skyrim.
+
+Both require TBB Redistributables to function so their installation is very similar. Again I will be installing things for Fallout 4, but I will note any differences if required.
 
 1. Begin the installation as normal by double clicking the mod in the downloads tab. Right click the `Data` folder and create a `Root` folder inside of it.
 
     ![Rootbuilder Buffout01](./images/mo2-rootbuilder-buffout01.png)
 
-1. Move `tbbmalloc.dll` into the new `Root` folder
+1. Move `tbbmalloc.dll` into the new `Root` folder.
+
+    - For SSE Engine Fixes there will be three files to move into the `Root` folder: `d3dx9_42.dll`, `tbb.dll`,`tbbmalloc.dll`.
 
     ![Rootbuilder Buffout02](./images/mo2-rootbuilder-buffout02.png)
 
@@ -121,13 +129,13 @@ Now F4SE is installed correctly and you can launch your game with all the extra 
 
 ### ENB Binaries
 
-This is a basic install of the ENB Wrapper itself that presets on Nexus require. 
+This is a basic install of the ENB Wrapper itself that presets on Nexus require. Once again the installation for Fallout 4 and Skyrim are nearly identical, I will note any differences.
 
-1. [Download ENB](http://enbdev.com/download_mod_fallout4.htm) and save it to a temporary location. The desktop is a good location. Extract it and find the `Wrapper` folder. Right click and add it to a compressed folder. You can use whatever tool you would like for this as long as you end up with a ZIP or 7z archive.
+1. [Download](http://enbdev.com/download.html) the enb for your game and save it to a temporary location. The desktop is a good location. Extract it and find the `Wrapper` folder (For Skyrim the folder is named `WrapperVersion`). Right click and add it to a compressed folder. You can use whatever tool you would like for this as long as you end up with a ZIP or 7z archive.
 
     ![ENB Wrapper01](./images/enb-wrapper01.png)
 
-1. Drag your new archive into MO2. I have renamed my archive but you could leave it as "Wrapper" if you like.
+1. Drag your new archive into MO2. I have renamed my archive but you could leave it as is if you like.
 
     ![ENB Wrapper02](./images/enb-wrapper02.png)
 
@@ -135,7 +143,7 @@ This is a basic install of the ENB Wrapper itself that presets on Nexus require.
 
     ![Rootbuilder ENB01](./images/mo2-rootbuilder-enb01.png)
 
-1. We only need `d3d11.dll` and `d3dcompiler_46e.dll` for this install. Move them into the new `Root` folder and uncheck everything else.
+1. We only need `d3d11.dll` and `d3dcompiler_46e.dll` for this install (same for Skyrim). Move them into the new `Root` folder and uncheck everything else.
 
     ![Rootbuilder ENB02](./images/mo2-rootbuilder-enb02.png)
     
