@@ -44,7 +44,7 @@ Now you can start experimenting with MO2. **Remember that any changes to mods yo
 
 Vortex uses hard links to make mods appear as if they are in the `\Fallout 4\Data` folder. Because MO2 also tracks the contents of `\Fallout 4\Data` if you use Vortex to enable a mod and then open MO2 you will have a duplicate of the mod, one of which MO2 will not manage well.
 
-If you need a quick runthrough of MO2 sorting system check out my [MO2 Sorting Crash Course](./mo2-short-sorting-crashcourse.md)(still under construction). It shouldn't take more than a minute or two to read through.
+If you need a quick runthrough of MO2 sorting system check out my [MO2 Sorting Crash Course](./mo2-sorting-crashcourse.md). It shouldn't take more than a minute or two to read through.
 
 For a more in-depth write up see my MO2 General Guide (coming soon)
 
