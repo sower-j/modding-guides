@@ -10,6 +10,7 @@
 ### Mod Organizer 2
 
   - (coming soon) General Mod Organizer 2 guide for new users
+  - [MO2 Sorting Crash Course](./mo2-sorting-crashcourse.md)
   - [MO2 Root Builder - Manage Script Extenders, ENBs, and more with MO2](./mo2-rootbuilder.md)
 
 ---
