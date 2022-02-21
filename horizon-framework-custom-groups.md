@@ -3,7 +3,7 @@
 This guide will give a more in-depth explanation for using the custom groups that come with the Horizon Framework collection on Nexus.
 
 
-TLDR: Put ESM plugins in the `Master ESMs group`, put ESL plugins in the `ESLs group`, and patches for Horizon (standalone or replacer ESPs) in the `HZ Patches group`. **Do not make changes to any of the other groups unless you know what you are doing**
+TLDR: Put ESM plugins in the `Master ESMs group`, put ESL plugins in the `ESLs group`, patches for Horizon (standalone or replacer ESPs) in the `HZ Patches group`, and FallUI mods in the `FallUI group`. **Do not make changes to any of the other groups unless you know what you are doing**
 
 For those who don't know the distinction between "standalone patches" and "(ESP) replacer patches":
   - Standalone patches are a new plugin that uses the original mod and Horizon as a master.
@@ -28,6 +28,7 @@ Lets start by looking at the groups I've added and their purpose.
 | HZ Plugins | This group contains the other, optional plugins provided in the Horizon installer. This ensures they load after the DLC plugins, but before any patches for horizon. **Nothing should be added to this group** |
 | HZ Patches | This group ensures patches for horizon load after official Horizon plugins, but before some that need to be loaded last for compatibility reasons. **Users should add standalone and/or esp replacer patches to this group** |
 | HZ Enhanced Settlements | This group ensures a set of plugins from the Horizon installer load last. These plugins are very sensitive to being overwritten so they must load last. **Nothing should be added to this group** |
+| FallUI | FallUI is compatible with Horizon, but must load after Horizon's DEF_UI. **Users should add FallUI mods to this group**
 
 ---
 
@@ -38,6 +39,7 @@ There are only three groups the user should be editing: `Master ESMs`, `ESLs`, a
   - Master ESMs - Any plugin that ends in `.esm`
   - ESLs - Any plugin that ends in `.esl`
   - HZ Patches - Plugins that have `Z_Horizon.esp` as a master 
+  - FallUI - All FallUI mods should be placed in this group
 
 ## Adding Plugins to New Groups
 
