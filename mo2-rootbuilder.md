@@ -61,13 +61,13 @@ For this example I will be installing F4SE but the process is identical for SKSE
 
     ![F4SE01](./images/rootbuilder-f4se01.png)
 
-1.  Now put all the files that are required to be in the Fallout 4 directory into the `Root` folder.
+1.  Now put all the files that are required to be in the Fallout 4 (or Skyrim) directory into the `Root` folder.
 
     ![F4SE02](./images/rootbuilder-f4se02.png)
     
 1. For F4SE to function only `f4se_1_10_163.dll`, `f4se_steam_loader.dll` and `f4se_loader.exe` are required. You can uncheck everything else in the `Root` folder.
 
-    - For SKSE the files you need to have checked in the `Root` folder are `skse_1_9_32.dll`, `skse_loader.exe`, and `skse_steam_loader.dll`
+    - Note: for **Skyrim** SKSE the files you need to have checked in the `Root` folder are `skse_1_9_32.dll`, `skse_loader.exe`, and `skse_steam_loader.dll`
 
     ![F4SE03](./images/rootbuilder-f4se03.png)
 
@@ -105,7 +105,7 @@ Now F4SE is installed correctly and you can launch your game with all the extra 
 
 ### Engine Fixes 
 
-There are two major engine fix tools for Bethesda games. Buffout 4 for Fallout 4, and SSE Engine fixes for Skyrim.
+There are two major engine fix tools for Bethesda games. Buffout 4 for **Fallout 4**, and SSE Engine fixes for **Skyrim**.
 
 Both require TBB Redistributables to function so their installation is very similar. Again I will be installing things for Fallout 4, but I will note any differences if required.
 
@@ -115,7 +115,7 @@ Both require TBB Redistributables to function so their installation is very simi
 
 1. Move `tbbmalloc.dll` into the new `Root` folder.
 
-    - For SSE Engine Fixes there will be three files to move into the `Root` folder: `d3dx9_42.dll`, `tbb.dll`,`tbbmalloc.dll`.
+    - Note: for **Skyrim** SSE Engine Fixes there will be three files to move into the `Root` folder: `d3dx9_42.dll`, `tbb.dll`,`tbbmalloc.dll`.
 
     ![Rootbuilder Buffout02](./images/mo2-rootbuilder-buffout02.png)
 
@@ -131,7 +131,7 @@ Both require TBB Redistributables to function so their installation is very simi
 
 This is a basic install of the ENB Wrapper itself that presets on Nexus require. Once again the installation for Fallout 4 and Skyrim are nearly identical, I will note any differences.
 
-1. [Download](http://enbdev.com/download.html) the enb for your game and save it to a temporary location. The desktop is a good location. Extract it and find the `Wrapper` folder (for Skyrim the folder is named `WrapperVersion`). Right click and add it to a compressed folder. You can use whatever tool you would like for this as long as you end up with a ZIP or 7z archive.
+1. [Download](http://enbdev.com/download.html) the enb for your game and save it to a temporary location. The desktop is a good location. Extract it and find the `Wrapper` folder (for **Skyrim** the folder is named `WrapperVersion`). Right click and add it to a compressed folder. You can use whatever tool you would like for this as long as you end up with a ZIP or 7z archive.
 
     ![ENB Wrapper01](./images/enb-wrapper01.png)
 
