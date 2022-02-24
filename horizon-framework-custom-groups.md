@@ -7,7 +7,7 @@ TLDR: Put ESM plugins in the `Master ESMs group`, put ESL plugins in the `ESLs g
 
 ---
 
-### `For those who don't know the distinction between "standalone patches" and "(ESP) replacer patches":`
+### **For those who don't know the distinction between "standalone patches" and "(ESP) replacer patches":**
   - Standalone patches are a new plugin that uses the original mod and Horizon as a master.
   - (ESP) Replacer patches edit the original mod's plugin to make it compatible with Horizon. They should have Horizon as a master as a result.
 
