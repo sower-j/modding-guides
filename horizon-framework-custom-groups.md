@@ -42,14 +42,16 @@ There are only three groups the user should be editing: `Master ESMs`, `ESLs`, a
 
   - Master ESMs - Any plugin that ends in `.esm`
   - ESLs - Any plugin that ends in `.esl`
-  - HZ Patches - Any patch for Horizon, standalone or (ESP) replacer.
+  - HZ Patches - Any type of patch for Horizon, standalone or (ESP) replacer.
   - FallUI - All FallUI mods should be placed in this group
 
 ## Adding Plugins to New Groups
 
 I will demonstrate adding plugins to groups using a patch as an example, but the process is similar for the other two groups. To start with, go to the plugins tab in Vortex. Double click the plugin to open the sidebar.
 
-In this example I am going to add `VCMT Expansion patch - PROJECT VARIANCE.esp` to the `HZ Patches` group because it is a replacer patch that has `Z_Horizon.esp` as a master as seen below
+In this example I am going to add `VCMT Expansion patch - PROJECT VARIANCE.esp` to the `HZ Patches` group because it is a **(ESP) replacer patch** that has `Z_Horizon.esp` as a master as seen below. 
+
+  - Note: Not all patches are guaranteed to have `Z_Horizon.esp` as a master. Sometimes people forget to assign it during patch creation so try to pay special attention to ESP origins
 
 ![Patch plugin](./images/hz-patch-group01.png)
 
