@@ -6,16 +6,30 @@ Based on your settings, Root Builder will temporarily copy, or link mods that ne
 
 If you would like to jump straight to a specific section here are some jump points:
 
-  - [Script Extenders (F4SE, SKSE)](#script-extender-installation)
-  - [Engine Fixes (Buffout 4, SSE Engine Fixes)](#engine-fixes)
-  - [ENB Binaries (Fallout 4 or Skyrim)](#enb-binaries)
-  - [ENB Preset](#enb-preset)
-  - [xSE Plugin Preloader (Fallout 4 only)](#xse-plugin-preloader)
+  - [Script Extenders (F4SE, SKSE)](#installing-script-extenders)
+  - [Engine Fixes (Buffout 4, SSE Engine Fixes)](#installing-engine-fixes)
+  - [ENB Binaries (Fallout 4 or Skyrim)](#installing-enb-binaries)
+  - [ENB Preset (coming soon)](#enb-preset)
+  - [xSE Plugin Preloader (Fallout 4 only)](#installing-xse-plugin-preloader)
   - [Final Notes and Other Resources](#final-notes-and-other-resources)
 
 ---
 
-## Installing Root Builder
+## Installing Mods in Root Builder Format
+
+Root builder uses a slightly modified folder structure when installing mods that need to be in a game's base folder (where the EXE is located) such as script extenders or ENBs. 
+
+During installation you will need to create a `Root` folder inside of the `Data` directory and place any files that need to be in the base game folder (where EXE is located) into the new `Root` folder.
+
+***NOTE: Many mods installed in this way will have a warning that there is no valid game data. This is expected since this is an unofficial plugin MO2 does not recognize the folder structure.***
+
+---
+
+ ### Installing Root Builder 
+
+<details>
+
+  <summary><u><b>expand instructions</u></b></summary>
 
 Root Builder [(download here)](https://www.nexusmods.com/skyrimspecialedition/mods/31720) needs to be installed manually. Download it to any location you like, the desktop makes it easy to find for the next steps.
 
@@ -39,17 +53,17 @@ Root Builder [(download here)](https://www.nexusmods.com/skyrimspecialedition/mo
 
     ![Rootbuilder Confirm](./images/mo2-rootbuilder-confirm.png)
 
+[back to top](#using-mo2-to-manage-script-extenders-enbs-and-more)
+
+</details>
+
 ---
 
-## Installing Mods in Root Builder Format
+ ### Installing Script Extenders
 
-Root builder uses a slightly modified folder structure when installing mods that need to be in the Fallout 4 folder such as F4SE or ENBs. 
+<details>
 
-During installation you will need to create a `Root` folder inside of the `Data` directory and place any files that need to be in the Fallout 4 folder (where `Fallout4.exe` is located) into the new `Root` folder.
-
-***NOTE: Many mods installed in this way will have a warning that there is no valid game data. This is expected since this is an unofficial plugin MO2 does not recognize the folder structure.***
-
-###  Script Extender Installation
+  <summary><u><b>expand instructions</u></b></summary>
 
 For this example I will be installing F4SE but the process is identical for SKSE aside from different file names. I will note them where needed.
 
@@ -101,9 +115,17 @@ For this example I will be installing F4SE but the process is identical for SKSE
 
 Now F4SE is installed correctly and you can launch your game with all the extra goodies F4SE has to offer.
 
+[back to top](#using-mo2-to-manage-script-extenders-enbs-and-more)
+
+</details>
+
 ---
 
-### Engine Fixes 
+### Installing Engine Fixes
+
+<details>
+
+  <summary> <u><b>expand instructions</u></b></summary>
 
 There are two major engine fix tools for Bethesda games. Buffout 4 for **Fallout 4**, and SSE Engine fixes for **Skyrim**.
 
@@ -125,9 +147,17 @@ Both require TBB Redistributables to function so their installation is very simi
 
 1. Don't forget to enable on the left pane in MO2!
 
+[back to top](#using-mo2-to-manage-script-extenders-enbs-and-more)
+
+</details>
+
 ---
 
-### ENB Binaries
+### Installing ENB Binaries
+
+<details>
+
+  <summary> <u><b>expand instructions</u></b></summary>
 
 This is a basic install of the ENB Wrapper itself that presets on Nexus require. Once again the installation for Fallout 4 and Skyrim are nearly identical, I will note any differences.
 
@@ -153,15 +183,21 @@ This is a basic install of the ENB Wrapper itself that presets on Nexus require.
 
 1. Don't forget to enable on the left pane in MO2!
 
----
+[back to top](#using-mo2-to-manage-script-extenders-enbs-and-more)
 
-### ENB Preset
-
-Comming Soon
+</details>
 
 ---
 
-### xSE Plugin Preloader
+<u><b>ENB Preset</u></b> - Coming Soon
+
+---
+
+### Installing xSE Plugin Preloader
+
+<details>
+
+  <summary><u><b>expand instructions</u></b></summary>
    
 1. Begin the installation as normal by double clicking the mod in the downloads tab. Right click the `Data` folder and create a `Root` folder inside of it.
 
@@ -177,6 +213,10 @@ Comming Soon
 
 1. Don't forget to enable on the left pane in MO2!
 
+[back to top](#using-mo2-to-manage-script-extenders-enbs-and-more)
+
+</details>
+
 ---
 
 ## Final Notes and Other Resources
@@ -188,3 +228,6 @@ Bigglesworth has also made a guide for Root Builder with his custom repacks if y
 If the red "x" flags in MO2 bother you they will go away if you right click the mod and select "Ignore Missing Data"
 
 ![MO2 Flags](./images/mo2-missing-data.png)
+
+
+[back to top](#using-mo2-to-manage-script-extenders-enbs-and-more)
