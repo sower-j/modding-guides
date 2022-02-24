@@ -5,9 +5,13 @@ This guide will give a more in-depth explanation for using the custom groups tha
 
 TLDR: Put ESM plugins in the `Master ESMs group`, put ESL plugins in the `ESLs group`, patches for Horizon (standalone or replacer ESPs) in the `HZ Patches group`, and FallUI mods in the `FallUI group`. **Do not make changes to any of the other groups unless you know what you are doing**
 
-For those who don't know the distinction between "standalone patches" and "(ESP) replacer patches":
+---
+
+### `For those who don't know the distinction between "standalone patches" and "(ESP) replacer patches":`
   - Standalone patches are a new plugin that uses the original mod and Horizon as a master.
   - (ESP) Replacer patches edit the original mod's plugin to make it compatible with Horizon. They should have Horizon as a master as a result.
+
+---
 
 Since there is no way to manually order plugins in Vortex I had to get creative with groups to get Horizon's plugins into the order recommended by the author, Zawinul.
 
@@ -38,7 +42,7 @@ There are only three groups the user should be editing: `Master ESMs`, `ESLs`, a
 
   - Master ESMs - Any plugin that ends in `.esm`
   - ESLs - Any plugin that ends in `.esl`
-  - HZ Patches - Plugins that have `Z_Horizon.esp` as a master 
+  - HZ Patches - Any patch for Horizon, standalone or (ESP) replacer.
   - FallUI - All FallUI mods should be placed in this group
 
 ## Adding Plugins to New Groups
