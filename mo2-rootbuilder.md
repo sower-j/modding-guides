@@ -1,8 +1,8 @@
 # Using MO2 to Manage Script Extenders, ENBs, and More
 
-Mod Organizer 2 cannot install mods that use the base game folders natively (where the `Fallout4.exe`, or `Skyrim.exe` are located). Luckily Kezyma has made a plugin called [Root Builder](https://www.nexusmods.com/skyrimspecialedition/mods/31720) that will enable MO2 to manage these applications.
+Mod Organizer 2 cannot install mods that use the base game folders natively (where the `Fallout4.exe`, or `Skyrim.exe` are located for example). Luckily Kezyma has made a plugin called [Root Builder](https://www.nexusmods.com/skyrimspecialedition/mods/31720) that will enable MO2 to manage these applications.
 
-Based on your settings, Root Builder will temporarily copy, or link mods that need to be in the Fallout 4 folder. This makes it so that your Fallout 4 folder remains untouched and you have everything managed from one location, MO2.
+Based on your settings, Root Builder will temporarily copy, or link mods that need to be in the base game folder. This makes it so that your game folder remains untouched and you have everything managed from one location, MO2.
 
 If you would like to jump straight to a specific section here are some jump points:
 
@@ -228,6 +228,5 @@ Bigglesworth has also made a guide for Root Builder with his custom repacks if y
 If the red "x" flags in MO2 bother you they will go away if you right click the mod and select "Ignore Missing Data"
 
 ![MO2 Flags](./images/mo2-missing-data.png)
-
 
 [back to top](#using-mo2-to-manage-script-extenders-enbs-and-more)
