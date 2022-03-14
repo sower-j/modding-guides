@@ -24,7 +24,7 @@ Lets start by looking at the groups I've added and their purpose.
 | Group Name | Purpose |
 | :--------- | :------ |
 | Unofficial Fallout 4 Patch | This group ensures that UFO4 Patch is the first plugin to load after official Fallout 4 content. Many mods will overwrite the patch, which is expected. **Nothing should be added to this group** |
-|Master ESMs | This group is where all other plugins with the ESM extensions should go. Their order within this group is not terribly important but we need all non-Horizon ESMs in this group to ensure Architect is the final loaded ESM.***With the exception of official FO4 plugins*** **Users should add ESM plugins to this group** |
+|Master ESMs | This group is where all other plugins with the ESM extensions should go. Their order within this group is not terribly important but we need all non-Horizon ESMs in this group to ensure Architect is the final loaded ESM. ***With the exception of official FO4 plugins*** **Users should add ESM plugins to this group** |
 | ESLs | This group serves the same purpose as Master ESMs. ***With the exception of official Creation Club Content*** **Users should add ESLs to this group** |
 |Architect | This group is designated to a single plugin, `Architect.ESM`. This ensures it is the final ESM loaded which is important because the rest of Horizon relies on the changes made here. If other mods were to overwrite it, Horizon may not function as expected. **Nothing should be added to this group** | 
 | HZ Loot Addons | This group contains two plugins that edit global loot respawns and should need to be the first ESP type plugins. This group ensures they maintain this position. **Nothing should be added to this group** |
