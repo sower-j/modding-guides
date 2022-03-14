@@ -40,8 +40,8 @@ Lets start by looking at the groups I've added and their purpose.
 
 There are only three groups the user should be editing: `Master ESMs`, `ESLs`, and `HZ Patches`. Below are the requirements for adding plugins to each group.
 
-  - Master ESMs - Any plugin that ends in `.esm`
-  - ESLs - Any plugin that ends in `.esl`
+  - Master ESMs - **With the exception of official Fallout 4 Plugins** Any plugin that ends in `.esm`
+  - ESLs - **With the exception of official Creation Club content** Any plugin that ends in `.esl`
   - HZ Patches - Any type of patch for Horizon, standalone or (ESP) replacer.
   - FallUI - All FallUI mods should be placed in this group
 
