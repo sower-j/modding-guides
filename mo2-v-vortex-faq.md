@@ -1,6 +1,6 @@
 # Mod Organizer 2 Vs Vortex - FAQ
 
-The goal of this document is not to bash one mod manager or the other. Instead it is meant to clear up some misconceptions about MO2 and Vortex. Keep in mind that MO2 and Vortex have different design goals. Vortex is designed to handle modding any game on Nexus, so it needs to be slightly more complex/robust. MO2 was designed to handle Bethesda games and is optimized for that modding structure. It has since had compatibility added for other games, but still doesn't require the same level of robustness Vortex has
+The goal of this document is not to bash one mod manager or the other. Instead it is meant to clear up some misconceptions about MO2 and Vortex. Keep in mind that MO2 and Vortex have different design goals. Vortex is designed to handle modding any game on Nexus, so it needs to be slightly more complex/robust. MO2 was designed to handle Bethesda games and is optimized for that modding structure. It has since had compatibility added for other games, but still doesn't require the same level of robustness Vortex does. 
 
 ## Questions and Answers
 
