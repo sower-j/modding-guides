@@ -19,7 +19,7 @@ Since there is no way to manually order plugins in Vortex I had to get creative 
 
 Lets start by looking at the groups I've added and their purpose.
 
-![Horizon Vortex Groups](./images/hz-vortex-groups.png)
+<img src="./images/hz-vortex-groups.png" width="50%">
 
 | Group Name | Purpose |
 | :--------- | :------ |
@@ -53,10 +53,10 @@ In this example I am going to add `VCMT Expansion patch - PROJECT VARIANCE.esp` 
 
   - Note: Not all patches are guaranteed to have `Z_Horizon.esp` as a master. Sometimes people forget to assign it during patch creation so try to pay special attention to ESP origins
 
-![Patch plugin](./images/hz-patch-group01.png)
+<img src="./images/hz-patch-group01.png" width="50%">
 
 Once you have confirmed your plugin is a patch for Horizon open the groups drop down menu and select `HZ Patches`
 
-![Change group](./images/hz-patch-group02.png)
+<img src="./images/hz-patch-group02.png" width="50%">
 
 At this point I suggest manually triggering a resort by pressing the sort button near the top of the page to confirm correct load order position.

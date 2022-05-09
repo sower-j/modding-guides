@@ -18,11 +18,11 @@ This phase will allow you to keep your Vortex installation and settings intact w
 
     - Go to the `Mods` tab and take note of the staging folder location. I recommend copying the path to a temporary text document.
 
-      ![Vortex Mods Tab](./images/vortex-set-mods-tab.png)
+      <img src="./images/vortex-set-mods-tab.png" width="50%">
 
     - Go to the `Downloads` tab and take note of the folder location. Again I recommend copying the path to a temporary text document.
 
-      ![Vortex Downloads Tab](./images/vortex-set-downloads-tab.png)
+      <img src="./images/vortex-set-downloads-tab.png" width="50%">
 
 1. Now that you have the locations of your staging and downloads folder, double check to make sure all of your mods are disabled then close Vortex.
 
@@ -34,7 +34,7 @@ This phase will allow you to keep your Vortex installation and settings intact w
 
     - For Mods use your `Vortex staging folder`. 
 
-      ![MO2 Folder Setup](./images/mo2-shared-location.png)
+      <img src="./images/mo2-shared-location.png" width="50%">
 
     - Leave the rest of the options as default.
 
@@ -44,11 +44,11 @@ This phase will allow you to keep your Vortex installation and settings intact w
 
     - Open MO2's INI configuration tool.
 
-      ![MO2 INI Configuration 01](./images/mo2-ini01.png)
+      <img src="./images/mo2-ini01.png" width="50%">
 
     - Navigate to the fallout4custom.ini tab.
 
-      ![MO2 INI Configuration 02](./images/mo2-ini02.png)
+      <img src="./images/mo2-ini02.png" width="50%">
 
     - Ensure there is an `[Archive]` section with `bInvalidateOlderFiles=1` and `sResourceDataDirsFinal=` below it as seen in the picture above.
 
@@ -79,7 +79,7 @@ If you have decided to make the full switch to MO2 there are only a couple thing
 
     ***NOTE: I did not actually change my settings in the image below. It is just to show where they can be found within MO2***
 
-    ![MO2 Settings](./images/mo2-settings.png)
+    <img src="./images/mo2-settings.png" width="50%">
 
 1. You can now stop managing games with Vortex, or un-install Vortex completely without any loss of data.
 
