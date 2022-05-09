@@ -40,6 +40,20 @@ This phase will allow you to keep your Vortex installation and settings intact w
 
 1. Now you can launch MO2 and all of your mods and downloads will be present.
 
+1. To finish your MO2 set up make sure your `fallout4custom.ini` is configured for modding (loading loose files).
+
+    - Open MO2's INI configuration tool.
+
+      ![MO2 INI Configuration 01](./images/mo2-ini01.png)
+
+    - Navigate to the fallout4custom.ini tab.
+
+      ![MO2 INI Configuration 02](./images/mo2-ini02.png)
+
+    - Ensure there is an `[Archive]` section with `bInvalidateOlderFiles=1` and `sResourceDataDirsFinal=` below it as seen in the picture above.
+
+    **NOTE: There may be other settings in this file already. This is not a problem as long as `[Archive]` is present and `bInvalidateOlderFiles=1` and `sResourceDataDirsFinal=` are below it and not under another section header. (section headers are surrounded by square brackets)**
+
 Now you can start experimenting with MO2. **Remember that any changes to mods you download, install, rename, or delete will be reflected in Vortex.** While you are experimenting with MO2 I recommend avoiding Vortex because of the way it handles enabling mods. 
 
 Vortex uses hard links to make mods appear as if they are in the `\Fallout 4\Data` folder. Because MO2 also tracks the contents of `\Fallout 4\Data` if you use Vortex to enable a mod and then open MO2 you will have a duplicate of the mod, one of which MO2 will not manage well.
@@ -53,7 +67,7 @@ For a more in-depth write up see my MO2 General Guide (coming soon)
   - I have a guide for [installing and using Root Builder](./mo2-rootbuilder.md) if you are interested.
   - Bigglesworth also has a nice [guide on Root Builder](https://docs.google.com/document/d/1G_atn4azIh0JPrvBVAV6PhJ5kkrVnaktbBi_PJRpzV4/edit?usp=sharing). If you don't like my style check his out.
 
-## Phase 2: Removing Vortex Management
+## (Optional) Phase 2 : Removing Vortex Management
 
 If you have decided to make the full switch to MO2 there are only a couple things you need to do before removing Vortex.
 
