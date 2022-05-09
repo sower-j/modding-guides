@@ -4,8 +4,35 @@ Mod Organizer 2 cannot install mods that use the base game folders natively (whe
 
 Based on your settings, Root Builder will temporarily copy, or link mods that need to be in the base game folder. This makes it so that your game folder remains untouched and you have everything managed from one location, MO2.
 
+**NOTE: Remember to ensure your MO2 INIs are configured for modding (loading loose files). Expand the instructions below for a quick reminder if you are unsure**
+
+<details>
+
+  <summary><u>expand instructions</u></summary>
+
+ #### MO2 INI Configuration Check
+
+  - Open MO2's INI configuration tool.
+
+    ![MO2 INI Configuration 01](./images/mo2-ini01.png)
+
+  - Navigate to the fallout4custom.ini tab.
+
+    ![MO2 INI Configuration 02](./images/mo2-ini02.png)
+
+  - Ensure there is an `[Archive]` section with `bInvalidateOlderFiles=1` and `sResourceDataDirsFinal=` below it as seen in the picture above.
+
+  **NOTE: There may be other settings in this file already. This is not a problem as long as `[Archive]` is present and `bInvalidateOlderFiles=1` and `sResourceDataDirsFinal=` are below it and not under another section header. (section headers are surrounded by square brackets)**
+
+[back to top](#mo2-ini-configuration-check)
+
+</details>
+
+---
+
 If you would like to jump straight to a specific section here are some jump points:
 
+  - [Installing Root Builder](#installing-root-builder)
   - [Script Extenders (F4SE, SKSE)](#installing-script-extenders)
   - [Engine Fixes (Buffout 4, SSE Engine Fixes)](#installing-engine-fixes)
   - [ENB Binaries (Fallout 4 or Skyrim)](#installing-enb-binaries)
