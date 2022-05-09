@@ -246,11 +246,7 @@ This is a basic install of the ENB Wrapper itself that presets on Nexus require.
 
 ---
 
-## Final Notes and Other Resources
-
-Bigglesworth has also made a guide for Root Builder with his custom repacks if you are interested. Find it [here](https://docs.google.com/document/d/1G_atn4azIh0JPrvBVAV6PhJ5kkrVnaktbBi_PJRpzV4/edit?usp=sharing)!
-
----
+## Final Notes 
 
 If the red "x" flags in MO2 bother you they will go away if you right click the mod and select "Ignore Missing Data"
 

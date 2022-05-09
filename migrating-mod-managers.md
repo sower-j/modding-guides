@@ -65,7 +65,6 @@ For a more in-depth write up see my MO2 General Guide (coming soon)
 ***Note: MO2 does not manage F4SE, or ENB installation like Vortex. You will either need to install them manually, or use Kezyma's Root Builder.*** 
 
   - I have a guide for [installing and using Root Builder](./mo2-rootbuilder.md) if you are interested.
-  - Bigglesworth also has a nice [guide on Root Builder](https://docs.google.com/document/d/1G_atn4azIh0JPrvBVAV6PhJ5kkrVnaktbBi_PJRpzV4/edit?usp=sharing). If you don't like my style check his out.
 
 ## (Optional) Phase 2 : Removing Vortex Management
 
