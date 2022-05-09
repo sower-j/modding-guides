@@ -2,6 +2,7 @@
 
 ## Mod Manager Guides
 
+  - [Mod Organizer 2 Vs Vortex FAQ](./mo2-v-vortex-faq.md)
   - [Migrating between Vortex and Mod Organizer 2](./migrating-mod-managers.md)
   - (coming soon) Using Mod Organizer 2 and Vortex simultaneously (Advanced modding)
 
