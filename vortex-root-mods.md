@@ -3,12 +3,12 @@
 ## General Information
 
 I have found that many mods and tools that require files to be placed in the root `Fallout 4` folder (where `Fallout4.exe` is located) are lacking installation instructions for mod managers. While these installation instructions still work, they can be difficult to follow. In my opinion using a mod manager to handle these installations has several advantages over manual installation:
-
-  1. In my opinion they are easier to install with this method.
+  
+  1. These mods and tools are easier to install with this method.
 
   1. Using a mod manager to install these mods / tools makes it easier to track files.
 
-  1. Trouble shooting bad / incorrect installations is much easier because you know exactly what files the mod provides.
+  1. Troubleshooting bad / incorrect installations is much easier because you know exactly what files the mod provides.
 
   1. The user does not have to make any changes to the root `Fallout 4` folder.
 
