@@ -43,15 +43,15 @@ I will be using [F4SE](https://f4se.silverlock.org/) as an example for this meth
 1. Download and install Fallout 4 Script Extender.
     - Note: This mod includes a `Data` folder. There is a chance that not all mods will be packed like this. If you encounter a mod that has root `Fallout 4` files and `Fallout 4/Data`files all together and a `Data` folder is not present after installing the mod be sure to make one and put the appropriate files in it.
 
-    <img src="./images/vortex-with-data01.png" width="50%">
+    <img src="./images/vortex-with-data01.png" width="60%">
 
 1. Double click the mod to open the mod information tab. Scroll down to the bottom and change the `Mod Type` from `Default` to `Engine Injector`. 
 
-    <img src="./images/vortex-mod-type.png" width="50%">
+    <img src="./images/vortex-mod-type.png" width="60%">
 
 1. Re-deploy mods to ensure Vortex updates the new setting and you are done.
 
-    <img src="./images/vortex-deploy-mods.png" width="50%">
+    <img src="./images/vortex-deploy-mods.png" width="60%">
 
 [back to top](#installing-mods-and-tools-with-files-that-need-to-be-in-the-data-folder-f4se)
 
@@ -70,18 +70,18 @@ I will be using [Buffout 4](https://www.nexusmods.com/fallout4/mods/47359) as an
 1. Download and install **both** main files from [Buffout 4](https://www.nexusmods.com/fallout4/mods/47359), as well as [Address Libraries](https://www.nexusmods.com/fallout4/mods/47327), and [xSE PluginPreloader](https://www.nexusmods.com/fallout4/mods/33946).
   - Note: If you check the folder contents of `Buffout 4 - TBB Redistributables` and `xSE PluginPreloader` (the two mods that need their `Mod Type` changed) you will see the only files present are ones that need to be put into the root `Fallout 4` folder.
 
-    <img src="./images/vortex-without-data01.png" width="50%">
-    <img src="./images/vortex-without-data02.png" width="50%">
+    <img src="./images/vortex-without-data01.png" width="60%">
+    <img src="./images/vortex-without-data02.png" width="60%">
 
 1. Double click `Buffout 4 - TBB Redistributables` to open the mod information tab. Scroll down to the bottom and change the `Mod Type` from `Default` to `Engine Injector`. 
 
-    <img src="./images/vortex-mod-type.png" width="50%">
+    <img src="./images/vortex-mod-type.png" width="60%">
 
 1. You guessed it, now do the same for `xSE PluginPreloader`. Double click `xSE PluginPreloader` to open the mod information tab. Scroll down to the bottom and change the `Mod Type` from `Default` to `Engine Injector`.
 
 1. If you haven't already, redeploy mods to ensure Vortex updates the settings and you're done.
 
-    <img src="./images/vortex-deploy-mods.png" width="50%">
+    <img src="./images/vortex-deploy-mods.png" width="60%">
 
 [back to top](#installing-mods-and-tools-without-files-that-need-to-go-into-the-data-folder-buffout-4)
 
