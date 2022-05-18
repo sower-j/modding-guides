@@ -1,8 +1,23 @@
 # Using MO2 to Manage Script Extenders, ENBs, and More
 
+I have found that many mods and tools that require files to be placed in the root `Fallout 4` folder (where `Fallout4.exe` is located) are lacking installation instructions for mod managers. While these installation instructions still work, they can be difficult to follow. In my opinion using a mod manager to handle these installations has several advantages over manual installation:
+
+  1. These mods and tools are easier to install with this method.
+
+  1. Using a mod manager to install these mods / tools makes it easier to track files.
+
+  1. Troubleshooting bad / incorrect installations is much easier because you know exactly what files the mod provides.
+
+  1. The user does not have to make any changes to the root `Fallout 4` folder.
+
+      - This keeps the `Fallout 4` folder in a vanilla state which is always my recommendation. (In the case of Vortex you can now purge back to a vanilla state easily)
+
+This guide is specific for MO2. Check my [Vortex guide](vortex-root-mods.md) for how to accomplish a similar installation method with Vortex.
+
 Mod Organizer 2 cannot install mods that use the base game folders natively (where the `Fallout4.exe`, or `Skyrim.exe` are located for example). Luckily Kezyma has made a plugin called [Root Builder](https://www.nexusmods.com/skyrimspecialedition/mods/31720) that will enable MO2 to manage these applications.
 
 Based on your settings, Root Builder will temporarily copy, or link mods that need to be in the base game folder. This makes it so that your game folder remains untouched and you have everything managed from one location, MO2.
+ 
 
 **NOTE: Remember to ensure your MO2 INIs are configured for modding (loading loose files). Expand the instructions below for a quick reminder if you are unsure**
 
@@ -36,7 +51,6 @@ If you would like to jump straight to a specific section here are some jump poin
   - [Script Extenders (F4SE, SKSE)](#installing-script-extenders)
   - [Engine Fixes (Buffout 4, SSE Engine Fixes)](#installing-engine-fixes)
   - [ENB Binaries (Fallout 4 or Skyrim)](#installing-enb-binaries)
-  - [ENB Preset (coming soon)](#enb-preset)
   - [xSE Plugin Preloader (Fallout 4 only)](#installing-xse-plugin-preloader)
   - [Final Notes and Other Resources](#final-notes-and-other-resources)
 
@@ -152,7 +166,7 @@ Now F4SE is installed correctly and you can launch your game with all the extra 
 
 <details>
 
-  <summary> <u><b>expand instructions</u></b></summary>
+  <summary><u><b>expand instructions</u></b></summary>
 
 There are two major engine fix tools for Bethesda games. Buffout 4 for **Fallout 4**, and SSE Engine fixes for **Skyrim**.
 
@@ -184,7 +198,7 @@ Both require TBB Redistributables to function so their installation is very simi
 
 <details>
 
-  <summary> <u><b>expand instructions</u></b></summary>
+  <summary><u><b>expand instructions</u></b></summary>
 
 This is a basic install of the ENB Wrapper itself that presets on Nexus require. Once again the installation for Fallout 4 and Skyrim are nearly identical, I will note any differences.
 
@@ -213,10 +227,6 @@ This is a basic install of the ENB Wrapper itself that presets on Nexus require.
 [back to top](#using-mo2-to-manage-script-extenders-enbs-and-more)
 
 </details>
-
----
-
-<u><b>ENB Preset</u></b> - Coming Soon
 
 ---
 
