@@ -49,7 +49,6 @@ If you would like to jump straight to a specific section here are some jump poin
 
   - [Installing Root Builder](#installing-root-builder)
   - [Script Extenders (F4SE, SKSE)](#installing-script-extenders)
-  - [Engine Fixes (Buffout 4, SSE Engine Fixes)](#installing-engine-fixes)
   - [ENB Binaries (Fallout 4 or Skyrim)](#installing-enb-binaries)
   - [xSE Plugin Preloader (Fallout 4 only)](#installing-xse-plugin-preloader)
   - [Final Notes and Other Resources](#final-notes-and-other-resources)
@@ -155,38 +154,6 @@ For this example I will be installing F4SE but the process is identical for SKSE
     <img src="./images/mo2-add-executable05.png" width="50%">
 
 Now F4SE is installed correctly and you can launch your game with all the extra goodies F4SE has to offer.
-
-[back to top](#using-mo2-to-manage-script-extenders-enbs-and-more)
-
-</details>
-
----
-
-### Installing Engine Fixes
-
-<details>
-
-  <summary><u><b>expand instructions</u></b></summary>
-
-There are two major engine fix tools for Bethesda games. Buffout 4 for **Fallout 4**, and SSE Engine fixes for **Skyrim**.
-
-Both require TBB Redistributables to function so their installation is very similar. Again I will be installing things for Fallout 4, but I will note any differences if required.
-
-1. Begin the installation as normal by double clicking the mod in the downloads tab. Right click the `Data` folder and create a `Root` folder inside of it.
-
-    <img src="./images/mo2-rootbuilder-buffout01.png" width="50%">
-
-1. Move `tbbmalloc.dll` into the new `Root` folder.
-
-    - Note: for **Skyrim** SSE Engine Fixes there will be three files to move into the `Root` folder: `d3dx9_42.dll`, `tbb.dll`,`tbbmalloc.dll`.
-
-    <img src="./images/mo2-rootbuilder-buffout02.png" width="50%">
-
-1. Click `OK` and and you're done! Don't worry about MO2 saying the contents aren't valid, that is expected. Press ignore on the warning that comes up.
-
-    <img src="./images/mo2-rootbuilder-buffout03.png" width="50%">
-
-1. Don't forget to enable on the left pane in MO2!
 
 [back to top](#using-mo2-to-manage-script-extenders-enbs-and-more)
 
