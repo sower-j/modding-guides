@@ -25,6 +25,7 @@ This phase will allow you to keep your Vortex installation and settings intact w
       <img src="./images/vortex-set-downloads-tab.png" width="50%">
 
 1. Now that you have the locations of your staging and downloads folder, double check to make sure all of your mods are disabled then close Vortex.
+   - ***Note: The purge button is the quickest way to have Vortex disable all of your mods*** Alternatively, you can select a mod and press 'CTL + a' to select all of your mods to disable them all at once
 
 1. Begin your MO2 install. I prefer the portable instance, but a global instance will work as well.
 
