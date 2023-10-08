@@ -19,7 +19,7 @@ Since there is no way to manually order plugins in Vortex I had to get creative 
 
 Lets start by looking at the groups I've added and their purpose.
 
-
+<img src="./images/hz-vortex-groups.png" width="50%">
 
 | Group Name | Purpose |
 | :--------- | :------ |
