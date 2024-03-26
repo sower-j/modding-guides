@@ -8,12 +8,7 @@ For this example I will be using Fallout 4 as my game, but the process is the sa
 
 ## Phase 1: Soft Migration
 
-This phase will allow you to keep your Vortex installation and settings intact while testing MO2.
-
-❗In Vortex, **disable all of your mods**❗. This helps make the initial MO2 experience less confusing by ensuring there aren't any extra plugins in the `\Fallout 4\Data` folder.
-
-
-   - ***Note: The purge button is the quickest way to have Vortex disable all of your mods*** Alternatively, you can select a mod and press 'CTL + a' to select all of your mods to disable them all at once
+This phase will allow you to keep your Vortex installation and settings intact while testing MO2.❗In Vortex, **disable all of your mods**:heavy_exclamation_mark:. The purge button is the quickest way to have Vortex disable all of your mods. Alternatively, you can select a mod and press 'CTL + a' to select all of your mods to disable them all at once
 
 1. In Vortex, navigate to the settings page.
       
