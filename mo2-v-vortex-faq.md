@@ -28,7 +28,7 @@ These are skills and knowledge you acquire immediately while using MO2 because i
 
   <summary><u><b>expand answer</u></b></summary>
 
-In some cases yes. If you have a small mod list Vortex can be simpler to use. However, once you start using custom rules it becomes quite complex. Meanwhile, MO2 has the same level of complexity regardless of how many mods you hae installed.
+In some cases yes. If you have a small mod list Vortex can be simpler to use. However, once you start using custom rules it becomes quite complex. Meanwhile, MO2 has the same level of complexity regardless of how many mods you have installed.
 
 Vortex has all its information split up onto different screens. Installed/enabled mods, file overwrite rules, plugin order, plugin groups (LOOT groups), and plugin-to-plugin specific load order rules all have their own screen. It becomes quite difficult to remember what you have done previously which can lead to creating cyclical rules that can be quite difficult to troubleshot. (Yes, I have done this and it was a nightmare figuring out where I made the mistake) 
 
